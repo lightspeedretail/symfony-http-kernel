@@ -60,14 +60,16 @@
         "symfony/messenger": "<5.0",
         "symfony/translation": "<5.0",
         "symfony/twig-bridge": "<5.0",
-        "symfony/validator": "<5.0",
-        "twig/twig": "<2.13"
+        "symfony/validator": "<5.0"
     },
     "suggest": {
         "symfony/browser-kit": "",
         "symfony/config": "",
         "symfony/console": "",
         "symfony/dependency-injection": ""
+    },
+    "replace": {
+        "symfony/http-kernel": "self.version"
     },
     "autoload": {
         "psr-4": { "Symfony\\Component\\HttpKernel\\": "" },
